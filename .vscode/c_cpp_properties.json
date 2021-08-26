@@ -1,0 +1,79 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/mirwin/Desktop/Anet-custom-master/include",
+                "/Users/mirwin/Desktop/Anet-custom-master/Marlin",
+                "/Users/mirwin/Desktop/Anet-custom-master/.pio/libdeps/LPC1768/SailfishLCD",
+                "/Users/mirwin/Desktop/Anet-custom-master/.pio/libdeps/LPC1768/Adafruit NeoPixel",
+                "/Users/mirwin/Desktop/Anet-custom-master/.pio/libdeps/LPC1768/TMCStepper_ID5513/src",
+                "/Users/mirwin/Desktop/Anet-custom-master/.pio/libdeps/LPC1768/U8glib-HAL_ID1932/src",
+                "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
+                "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                "/Users/mirwin/Desktop/Anet-custom-master/Marlin/src/HAL/HAL_LPC1768/include",
+                "/Users/mirwin/Desktop/Anet-custom-master/Marlin/src/HAL/HAL_LPC1768/u8g",
+                "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
+                "/Users/mirwin/.platformio/lib/Adafruit BME280 Library_ID166",
+                "/Users/mirwin/.platformio/lib/Adafruit MQTT Library_ID1092",
+                "/Users/mirwin/.platformio/lib/Adafruit Unified Sensor_ID31",
+                "/Users/mirwin/.platformio/lib/ArduinoHttpClient_ID798/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/mirwin/Desktop/Anet-custom-master/include",
+                    "/Users/mirwin/Desktop/Anet-custom-master/Marlin",
+                    "/Users/mirwin/Desktop/Anet-custom-master/.pio/libdeps/LPC1768/SailfishLCD",
+                    "/Users/mirwin/Desktop/Anet-custom-master/.pio/libdeps/LPC1768/Adafruit NeoPixel",
+                    "/Users/mirwin/Desktop/Anet-custom-master/.pio/libdeps/LPC1768/TMCStepper_ID5513/src",
+                    "/Users/mirwin/Desktop/Anet-custom-master/.pio/libdeps/LPC1768/U8glib-HAL_ID1932/src",
+                    "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
+                    "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                    "/Users/mirwin/Desktop/Anet-custom-master/Marlin/src/HAL/HAL_LPC1768/include",
+                    "/Users/mirwin/Desktop/Anet-custom-master/Marlin/src/HAL/HAL_LPC1768/u8g",
+                    "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                    "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                    "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                    "/Users/mirwin/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
+                    "/Users/mirwin/.platformio/lib/Adafruit BME280 Library_ID166",
+                    "/Users/mirwin/.platformio/lib/Adafruit MQTT Library_ID1092",
+                    "/Users/mirwin/.platformio/lib/Adafruit Unified Sensor_ID31",
+                    "/Users/mirwin/.platformio/lib/ArduinoHttpClient_ID798/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "LPC176X_FRAMEWORK",
+                "TARGET_LPC1768",
+                "F_CPU=100000000L",
+                "MCU_LPC1768",
+                "PIO_PLATFORM_VERSION=1001UL",
+                "PIO_FRAMEWORK_VERSION=2008UL",
+                "PLATFORMIO=50101",
+                "U8G_HAL_LINKS",
+                "__MARLIN_FIRMWARE__",
+                "ARDUINO_ARCH_LPC176X",
+                "ARDUINOLPC=10805",
+                ""
+            ],
+            "cppStandard": "c++17",
+            "compilerPath": "/Users/mirwin/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
